@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   background: rgb(182,26,165);
+   background: linear-gradient(171deg, rgba(182,26,165,1) 0%, rgba(128,23,185,1) 52%, rgba(252,69,153,1) 100%);
+   background-repeat: no-repeat;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+h3{
+   font-weight: 800;
+}
+
+
+img {
+   max-width: 100%;
+   display: block;
+}
+
+.b-shadow{
+   box-shadow: 0px 0px 20px rgb(0 0 0 /0.2);
+}

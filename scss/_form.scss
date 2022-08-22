@@ -1,0 +1,25 @@
+input{
+   min-width: 40rem;
+   height: 3.5rem;
+   border-radius: 1.1rem;
+   border: none;
+   padding-left: 3rem;
+   
+}
+
+#search {
+   background-color: inherit;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 1.2rem;
+   color: white;
+
+   &::placeholder{
+      color: cadetblue;
+   }
+
+   &:focus{
+      outline: none;
+   }
+
+}
